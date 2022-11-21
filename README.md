@@ -1,7 +1,7 @@
 # CC_ProgBasic_Exercise_01
 This is an exercise task for students to practice on, see the description of the tasks below. Have a good time :)
 
-1; When we press the "btn-add-pressure" button the value "sensor-value", change the code so this value cannot go over 99 and cannot be lower than 1.
+1; When we press the "btn-add-pressure" button the value "sensor-value" changes, change the code so this value cannot go over 99 and cannot be lower than 1.
 
 2; Implement the function for the "btn-reduce-pressure" button which reduces the "sensor-value" by 15.
 
