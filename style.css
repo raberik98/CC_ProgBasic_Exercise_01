@@ -33,11 +33,11 @@ main {
 }
 
 .danger {
-    color: red;
+    background-color: red;
 }
 .warning {
-    color: yellow;
+    background-color: yellow;
 }
 .good {
-    color: lightblue;
+    background-color: lightblue;
 }
