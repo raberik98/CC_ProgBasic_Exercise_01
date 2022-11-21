@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pressure sensor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="sensor-body">
+            <div class="sensor-current"></div>
+        </div>
+        <div class="sensor-data">
+            <h3>The current value of the sensor:</h3>
+            <h2 id="sensor-value">20</h2>
+            <h3>State:</h3>
+            <h1 id="sensor-state">Good</h1>
+            <div style="display: block;">
+                <button class="btn" style="margin-right: 10px; width: 50px;" id="btn-add-pressure">+</button>
+                <button class="btn" style="width: 50px;" id="btn-reduce-pressure">-</button>
+            </div>
+            <button class="btn" id="btn-save" style="margin-top: 20px;">Save</button>
+        </div>
+        <div style="margin-left: 80px; margin-top: 80px">
+            <h2>Average:</h2>
+            <h1 id="average-value">0</h1>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
