@@ -15,7 +15,12 @@ This is an exercise task for students to practice on, see the description of the
     if warning then to "warning", 
     and if it's danger then to "danger".
 
-5; Check the already implemented function which is triggered by pressing the "btn-save" button.
+5; Implement a feature where the hight of the "sensor-current" changes when the "sensor-value" changes to the exact same value in %.
+    For example if the value is 50 than the hight of the "sensor-current" is 50%,
+    if the value is 70 than the hight of the "sensor-current" is 70%.
+
+6; Check the already implemented function which is triggered by pressing the "btn-save" button.
     Explain what happens when does this function run and what happens.
 
-6; Based on the saved values get the average value of the saved values and display it at the header with the id of "average-value".
+7; Based on the saved values get the average value of the saved values and display it at the header with the id of "average-value".
+
